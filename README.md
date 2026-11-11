@@ -83,6 +83,10 @@ mvn spring-boot:run -Dspring-boot.run.profiles=mysql
 
 ![自习室浏览](docs/images/01-rooms.png)
 
+### 学生端 · 座位预约
+
+![座位预约](docs/images/06-seat-map.png)
+
 ### 学生端 · 我的预约
 
 ![我的预约](docs/images/05-my-reservations.png)
@@ -98,8 +102,6 @@ mvn spring-boot:run -Dspring-boot.run.profiles=mysql
 ### 管理端 · 预约管理
 
 ![预约管理](docs/images/04-admin-reservations.png)
-
-<!-- 待补充：学生端「座位预约」页面截图（四态座位图），文件名建议 docs/images/06-seat-map.png -->
 
 ---
 
