@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/study_room?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    # 如需首次建表，请先手动执行 backend/src/main/resources/db/mysql/schema.sql
+    # 如需让程序自动建表，可放开下面两行（并保持上面的 schema 注释状态）
+    # sql:
+    #   init:
+    #     mode: always
+    #     schema-locations: classpath:db/mysql/schema.sql

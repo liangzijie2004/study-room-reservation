@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    # 默认使用 h2（内存数据库，零配置即可运行演示）
+    # 正式 / 答辩如需使用 MySQL，启动时改为： --spring.profiles.active=mysql
+    active: h2
+  jackson:
+    time-zone: GMT+8
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    # 打印 SQL，便于调试与答辩演示；生产可注释掉
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# 业务配置
+app:
+  jwt:
+    # JWT 签名密钥（正式项目请改为环境变量注入）
+    secret: campus-study-room-reservation-secret-2026
+    # 令牌有效期（小时）
+    expire-hours: 24
+
+logging:
+  level:
+    com.campus.studyroom: info
