@@ -79,11 +79,27 @@ mvn spring-boot:run -Dspring-boot.run.profiles=mysql
 
 ## 界面预览
 
-<!--
-截图放入 docs/images/ 目录后，取消下面的注释即可显示（建议尺寸 1440x900，裁掉浏览器边框）
-![座位预约](docs/images/02-seat-map.png)
-![管理端看板](docs/images/04-dashboard.png)
--->
+### 学生端 · 自习室浏览
+
+![自习室浏览](docs/images/01-rooms.png)
+
+### 学生端 · 我的预约
+
+![我的预约](docs/images/05-my-reservations.png)
+
+### 管理端 · 数据看板
+
+![数据看板](docs/images/02-dashboard.png)
+
+### 管理端 · 自习室管理
+
+![自习室管理](docs/images/03-admin-rooms.png)
+
+### 管理端 · 预约管理
+
+![预约管理](docs/images/04-admin-reservations.png)
+
+<!-- 待补充：学生端「座位预约」页面截图（四态座位图），文件名建议 docs/images/06-seat-map.png -->
 
 ---
 
